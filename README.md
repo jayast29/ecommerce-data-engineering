@@ -2,7 +2,7 @@
 
 ### 📌 Project Overview
 
-This data engineering project is focused on processing and analyzing the Brazilian E-Commerce Public Dataset by Olist, which contains 100,000 orders made at Olist Store between 2016 and 2018. The project involves ingesting, transforming, and analyzing the data using multiple tools within the Azure ecosystem, including Azure Data Factory (ADF), Databricks, and Synapse Analytics. The goal is to transform raw data into usable business insights, serving the final data for visualization and reporting.
+This data engineering project is focused on processing and analyzing the Brazilian E-Commerce Public Dataset by Olist, which contains 100,000 orders made at Olist Store between 2016 and 2018. The project involves ingesting, transforming, and analyzing the data using multiple tools within the Azure ecosystem, including Azure Data Lake Storage, Azure Data Factory , Databricks, and Synapse Analytics. The goal is to transform raw data into usable business insights, serving the final data for visualization and reporting.
 
 ### 📊 Architecture & Workflow
 ![Project Architecture](project_architecture.jpg)
@@ -12,9 +12,9 @@ This data engineering project is focused on processing and analyzing the Brazili
 - **Azure Data Factory (ADF)**: For orchestrating data ingestion.
 - **Databricks**: For performing data transformation on the ingested data.
 - **Synapse Analytics**: For serving the transformed data to Power BI via SQL queries.
+- **Power BI**: For creating dashboards and visualizations from the final dataset.
 - **MySQL**: For managing one of the CSV datasets in a relational database.
 - **MongoDB**: For replacing Brazilian product category names with English equivalents.
-- **Power BI**: For creating dashboards and visualizations from the final dataset.
 
 ### 📑 Dataset Description
 
@@ -33,7 +33,7 @@ The dataset, provided by Olist, contains information about 100,000 orders from 2
 
 2. **Data Ingestion to Bronze Layer**: 
    - The raw data from the CSV files was ingested into the **Bronze Layer** in Azure Data Lake Storage (ADLS) using Azure Data Factory (ADF).
-   - Data Sources: GitHub, MySQL Database.
+   - **Data Sources**: GitHub, MySQL Database.
 
 3. **Data Transformation in Databricks**:
    - Data was cleaned and transformed using Databricks notebooks.
