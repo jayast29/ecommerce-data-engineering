@@ -12,6 +12,8 @@ This data engineering project is focused on processing and analyzing the Brazili
 
 ### 📑 Dataset Description
 
+[![Kaggle Dataset](https://img.shields.io/badge/Dataset-Kaggle-blue?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
+
 The dataset, provided by Olist, contains information about 100,000 orders from 2016 to 2018, made at various Brazilian marketplaces. It includes several features, such as:
 - **Order Details**: Order status, payment, and delivery performance.
 - **Customer Information**: Customer location and demographics.
