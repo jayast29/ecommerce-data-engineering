@@ -5,7 +5,7 @@
 This data engineering project is focused on processing and analyzing the Brazilian E-Commerce Public Dataset by Olist, which contains 100,000 orders made at Olist Store between 2016 and 2018. The project involves ingesting, transforming, and analyzing the data using multiple tools within the Azure ecosystem, including Azure Data Lake Storage, Azure Data Factory , Databricks, and Synapse Analytics. The goal is to transform raw data into usable business insights, serving the final data for visualization and reporting.
 
 ### 📊 Architecture & Workflow
-![Project Architecture](project_architecture.jpg)
+![Project Architecture](project_architecture.png)
 
 ### 🛠️ Tools & Technologies Used:
 - **Azure Data Lake Storage (ADLS)**: For staging & Medallion Architecture of various sources.
