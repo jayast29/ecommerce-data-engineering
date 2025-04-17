@@ -4,19 +4,15 @@
 
 This data engineering project is focused on processing and analyzing the Brazilian E-Commerce Public Dataset by Olist, which contains 100,000 orders made at Olist Store between 2016 and 2018. The project involves ingesting, transforming, and analyzing the data using multiple tools within the Azure ecosystem, including Azure Data Lake Storage, Azure Data Factory , Databricks, and Synapse Analytics. The goal is to transform raw data into usable business insights, serving the final data for visualization and reporting.
 
+### 🛠️ Tools & Technologies Used:
+<p align="left"> <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/> <img src="https://img.shields.io/badge/Microsoft%20Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Microsoft Azure"/> <img src="https://img.shields.io/badge/Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white" alt="Apache Spark"/> <img src="https://img.shields.io/badge/Databricks-EF3E3E?style=for-the-badge&logo=databricks&logoColor=white" alt="Databricks"/> <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI"/> <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/> <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"/> </p>
+
 ### 📊 Architecture & Workflow
 ![Project Architecture](project_architecture.png)
 
-### 🛠️ Tools & Technologies Used:
-- **Azure Data Lake Storage (ADLS)**: For staging & Medallion Architecture of various sources.
-- **Azure Data Factory (ADF)**: For orchestrating data ingestion.
-- **Databricks**: For performing data transformation on the ingested data.
-- **Synapse Analytics**: For serving the transformed data to Power BI via SQL queries.
-- **Power BI**: For creating dashboards and visualizations from the final dataset.
-- **MySQL**: For managing one of the CSV datasets in a relational database.
-- **MongoDB**: For replacing Brazilian product category names with English equivalents.
-
 ### 📑 Dataset Description
+
+[![Kaggle Dataset](https://img.shields.io/badge/Dataset-Kaggle-blue?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
 
 The dataset, provided by Olist, contains information about 100,000 orders from 2016 to 2018, made at various Brazilian marketplaces. It includes several features, such as:
 - **Order Details**: Order status, payment, and delivery performance.
