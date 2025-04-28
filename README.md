@@ -51,3 +51,9 @@ The dataset, provided by Olist, contains information about 100,000 orders from 2
    - SQL queries were written in Synapse Analytics to aggregate, filter, and prepare the data for reporting in Power BI.
 
 ---
+
+### 🔎 Dashboard
+
+![Power BI Dashboard](https://github.com/jayast29/olist-ecommerce-analytics/blob/main/images/powerbi.png?raw=true)
+
+---
